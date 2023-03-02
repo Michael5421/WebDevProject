@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>HTML Game Emulator</title>
+    <title>GAMESPHERE</title>
     <h1></h1><li><a class ="active" href="emu.html">
      Wolfenstein</a>
      <a class ="active" href="Doom.html">
@@ -16,12 +17,11 @@
      </head>
 <body>
 <div id="dosbox"></div>
-<div><label for="exe">Executable:</label> <input type="text" id="exe" value=""/> (exact name, e.g.: "./START.EXE")</div>
+<div><label for="exe">Executable:</label> <input type="text" id="exe" value=""/></div>
 <div><label for="zip">.ZIP File:</label> <input type="file" id="zip"/></div>
 <div><input type="button" id="start" value="Start"/></div>
-<div><button id="fullscreen" style="display: none;">Make fullscreen</button></div>
-<script src="https://js-dos.com/cdn/js-dos-api.js"></script>
+<script src="dosboxapi.js"></script>
 <script src="emu.js"></script>
 <link rel="stylesheet" href="emu.css">
-<footer><b>University of the Incarnate Word 2023</b></footer>
 </body>
+<footer><b>University of the Incarnate Word 2023</b></footer>

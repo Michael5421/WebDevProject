@@ -1,4 +1,4 @@
-#dosbox { width: 640px; height: 400px; margin: 0 auto; padding-top: 80px; min-height: 80px;}
+#dosbox { width: 640px; height: 400px; margin: 0 auto; padding-top: 60px; min-height: -60px; max-height: 60px;}
 .dosbox-container { width: 640px; height: 400px;}
 .dosbox-container > .dosbox-overlay { background-size: 640px 400px; }
 body{
@@ -6,7 +6,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    color: #ddd; 
+    color: #ddd;
+    cursor:url(Pictures/cursor.gif), pointer;
 }
 h1{
     background-image: url('Pictures/gamesphere.png');
@@ -38,26 +39,24 @@ h1{
    li:last-child{
     border-right:none;
    }
-   /*to display the hover color as blue and text color as white*/
    li a:hover{
-    color: whitesmoke;
-    background-color: aqua;
-    padding: 50px 50px;
+    color:rgb(2, 2, 56);
+    background-color: blueviolet;
     text-decoration: none;
    }
    a{
     text-decoration: none;
     list-style:none;
     text-align:center;
-    padding:50px 50px;
-    color: black;
+    padding:90px 60px;
+    color: white;
     border:5px;
    }
    footer{
     position:fixed;
     color: #ddd;
     text-align: center;
-    padding-top: 311px;
+    padding-top: 375px;
     position: sticky;
-    max-height: -311px;
+    max-height: -375px;
    }

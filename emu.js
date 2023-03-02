@@ -1,5 +1,4 @@
 console.clear();
-console.log('Created by Sven Neumann <sven@svencodes.com>');
 
 var dosbox, exeName, zipUrl = '';
 
@@ -15,9 +14,6 @@ document.getElementById('start')
 			onload: dosbox => dosbox.run(zipUrl, exeName),
 			onrun: (dosbox, app) => {
 				console.log("Starting: '" + app + "'");
-				let fullscreen = document.getElementById('fullscreen');
-				fullscreen.style.display = '';
-				fullscreen.addEventListener('click', event => dosbox.requestFullScreen());
 			}
 		});
 		dosbox.ui.overlay.hide();
