@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>HTML Game Emulator</title>
+    <h1></h1><li><a class ="active" href="emu.html">
+     Wolfenstein</a>
+     <a class ="active" href="Doom.html">
+     Doom</a>
+     <a class ="active" href="Galaga.html">
+     Galaga</a>
+     <a class ="active" href="Pac-Man.html">
+     Pac-Man</a>
+     <a class ="active" href="Castlevania.html">
+     Castlevania </a> </li></h1>
+     </head>
+<body>
+<div id="dosbox"></div>
+<div><label for="exe">Executable:</label> <input type="text" id="exe" value=""/> (exact name, e.g.: "./START.EXE")</div>
+<div><label for="zip">.ZIP File:</label> <input type="file" id="zip"/></div>
+<div><input type="button" id="start" value="Start"/></div>
+<div><button id="fullscreen" style="display: none;">Make fullscreen</button></div>
+<script src="https://js-dos.com/cdn/js-dos-api.js"></script>
+<script src="emu.js"></script>
+<link rel="stylesheet" href="emu.css">
+<footer><b>University of the Incarnate Word 2023</b></footer>
+</body>
