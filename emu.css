@@ -1,6 +1,9 @@
 #dosbox { width: 640px; height: 400px; margin: 0 auto; padding-top: 60px; min-height: -60px; max-height: 60px;}
 .dosbox-container { width: 640px; height: 400px;}
 .dosbox-container > .dosbox-overlay { background-size: 640px 400px; }
+#my{
+    zoom: 80%;
+    }
 body{
     background-image: url('Pictures/background.jpg');
     background-repeat: no-repeat;
